@@ -13,9 +13,10 @@
 		ABB2053B29A097A9004E7072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB2053A29A097A9004E7072 /* Preview Assets.xcassets */; };
 		ABB2054529A09840004E7072 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2054429A09840004E7072 /* DataController.swift */; };
 		ABB2054C29A1E636004E7072 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABB2054A29A1E636004E7072 /* CoreDataProject.xcdatamodeld */; };
-		ABB2054F29A1E6AF004E7072 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2054D29A1E6AE004E7072 /* Singer+CoreDataClass.swift */; };
-		ABB2055029A1E6AF004E7072 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2054E29A1E6AF004E7072 /* Singer+CoreDataProperties.swift */; };
-		ABB2055229A1E8C8004E7072 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2055129A1E8C8004E7072 /* FilteredList.swift */; };
+		ABB2055729A366F3004E7072 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2055329A366F3004E7072 /* Country+CoreDataClass.swift */; };
+		ABB2055829A366F3004E7072 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2055429A366F3004E7072 /* Country+CoreDataProperties.swift */; };
+		ABB2055929A366F3004E7072 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2055529A366F3004E7072 /* Candy+CoreDataClass.swift */; };
+		ABB2055A29A366F3004E7072 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2055629A366F3004E7072 /* Candy+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +27,10 @@
 		ABB2053A29A097A9004E7072 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABB2054429A09840004E7072 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		ABB2054B29A1E636004E7072 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
-		ABB2054D29A1E6AE004E7072 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
-		ABB2054E29A1E6AF004E7072 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		ABB2055129A1E8C8004E7072 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		ABB2055329A366F3004E7072 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ABB2055429A366F3004E7072 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ABB2055529A366F3004E7072 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ABB2055629A366F3004E7072 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 		ABB2053229A097A6004E7072 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
-				ABB2054D29A1E6AE004E7072 /* Singer+CoreDataClass.swift */,
-				ABB2054E29A1E6AF004E7072 /* Singer+CoreDataProperties.swift */,
+				ABB2055329A366F3004E7072 /* Country+CoreDataClass.swift */,
+				ABB2055429A366F3004E7072 /* Country+CoreDataProperties.swift */,
+				ABB2055529A366F3004E7072 /* Candy+CoreDataClass.swift */,
+				ABB2055629A366F3004E7072 /* Candy+CoreDataProperties.swift */,
 				ABB2053329A097A6004E7072 /* CoreDataProjectApp.swift */,
 				ABB2053529A097A6004E7072 /* ContentView.swift */,
-				ABB2055129A1E8C8004E7072 /* FilteredList.swift */,
 				ABB2054429A09840004E7072 /* DataController.swift */,
 				ABB2054A29A1E636004E7072 /* CoreDataProject.xcdatamodeld */,
 				ABB2053729A097A9004E7072 /* Assets.xcassets */,
@@ -153,12 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB2053629A097A6004E7072 /* ContentView.swift in Sources */,
-				ABB2055029A1E6AF004E7072 /* Singer+CoreDataProperties.swift in Sources */,
 				ABB2054529A09840004E7072 /* DataController.swift in Sources */,
-				ABB2054F29A1E6AF004E7072 /* Singer+CoreDataClass.swift in Sources */,
+				ABB2055829A366F3004E7072 /* Country+CoreDataProperties.swift in Sources */,
+				ABB2055A29A366F3004E7072 /* Candy+CoreDataProperties.swift in Sources */,
 				ABB2054C29A1E636004E7072 /* CoreDataProject.xcdatamodeld in Sources */,
+				ABB2055729A366F3004E7072 /* Country+CoreDataClass.swift in Sources */,
 				ABB2053429A097A6004E7072 /* CoreDataProjectApp.swift in Sources */,
-				ABB2055229A1E8C8004E7072 /* FilteredList.swift in Sources */,
+				ABB2055929A366F3004E7072 /* Candy+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
