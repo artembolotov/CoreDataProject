@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB83922329A87FE000A74F7A /* CandiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB83922229A87FE000A74F7A /* CandiesView.swift */; };
+		AB83922529A9CD8F00A74F7A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB83922429A9CD8F00A74F7A /* Extensions.swift */; };
 		ABB2053429A097A6004E7072 /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2053329A097A6004E7072 /* CoreDataProjectApp.swift */; };
 		ABB2053629A097A6004E7072 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2053529A097A6004E7072 /* ContentView.swift */; };
 		ABB2053829A097A9004E7072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB2053729A097A9004E7072 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB83922229A87FE000A74F7A /* CandiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandiesView.swift; sourceTree = "<group>"; };
+		AB83922429A9CD8F00A74F7A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		ABB2053029A097A6004E7072 /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB2053329A097A6004E7072 /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		ABB2053529A097A6004E7072 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,7 +73,9 @@
 				ABB2055629A366F3004E7072 /* Candy+CoreDataProperties.swift */,
 				ABB2053329A097A6004E7072 /* CoreDataProjectApp.swift */,
 				ABB2053529A097A6004E7072 /* ContentView.swift */,
+				AB83922229A87FE000A74F7A /* CandiesView.swift */,
 				ABB2054429A09840004E7072 /* DataController.swift */,
+				AB83922429A9CD8F00A74F7A /* Extensions.swift */,
 				ABB2054A29A1E636004E7072 /* CoreDataProject.xcdatamodeld */,
 				ABB2053729A097A9004E7072 /* Assets.xcassets */,
 				ABB2053929A097A9004E7072 /* Preview Content */,
@@ -156,9 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB2053629A097A6004E7072 /* ContentView.swift in Sources */,
+				AB83922329A87FE000A74F7A /* CandiesView.swift in Sources */,
 				ABB2054529A09840004E7072 /* DataController.swift in Sources */,
 				ABB2055829A366F3004E7072 /* Country+CoreDataProperties.swift in Sources */,
 				ABB2055A29A366F3004E7072 /* Candy+CoreDataProperties.swift in Sources */,
+				AB83922529A9CD8F00A74F7A /* Extensions.swift in Sources */,
 				ABB2054C29A1E636004E7072 /* CoreDataProject.xcdatamodeld in Sources */,
 				ABB2055729A366F3004E7072 /* Country+CoreDataClass.swift in Sources */,
 				ABB2053429A097A6004E7072 /* CoreDataProjectApp.swift in Sources */,
